@@ -1,5 +1,5 @@
-TYPE INFERENCE - Swift compiler can deduce type of variable. \n
-Ternary conditional operator - (`<CONDITION>`) ? `<TRUE VALUE>` : `<FALSE VALUE>`
+TYPE INFERENCE - Swift compiler can deduce type of variable.    
+Ternary conditional operator - (`<CONDITION>`) ? `<TRUE VALUE>` : `<FALSE VALUE>`   
 Countable closed range
 ``` swift
 let closedRange = 0...5
