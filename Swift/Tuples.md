@@ -131,14 +131,9 @@ In Tuples first arguments are being compared and if they are equal only than it 
 ```
 ## #4
 
-Another usecase of Tuples
+Another use case of Tuples
 
 ```swift
 typealias Coordinates = (Int, Int)
 let xy: Coordinates = (2, 4)
 ```
-
-
-### Links that help
-
-* [Swift Lanaguage Guide - Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
