@@ -62,8 +62,7 @@ func minMax(array: [Int]) -> (min: Int, max: Int) {
 }
 ```
 
-## An examples
-## #1
+## An example #1
 
 
 ```swift
