@@ -4,4 +4,4 @@ Here is sample explanation of confusing subjects for me
 
 ## Swift
 
-* [Array](https://translate.google.com/?sl=en&tl=ka&text=means&op=translate)
+* [Array](https://github.com/Lukaalimbarashvili/swiftArcade/tree/main/Swift/Array)
