@@ -43,6 +43,15 @@ print("The status code is \(http200Status.statusCode)")
 print("The status message is \(http200Status.description)")
 ```
 
+The difference with Struct and Tuple is simple: a tuple is effectively just a struct without a name, like an anonymous struct. This means you can define it as (name: String, age: Int, city: String) and it will do the same thing as the following struct:
+```swift
+struct User {
+    var name: String
+    var age: Int
+    var city: String
+}
+```
+
 Tuples are particularly useful as the return values of functions. A function that tries to retrieve a web page might return the (Int, String) tuple type to describe the success or failure of the page retrieval. By returning a tuple with two distinct values, each of a different type, the function provides more useful information about its outcome than if it could only return a single value of a single type. 
 
 Here is an example of a method returning a tuple

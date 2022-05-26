@@ -38,7 +38,7 @@ let integerPi = Int(pi)
 
 # Unsigned VS Signed Int
 
-<img src="images/UIntSizes.png" width=500 align=centre>
+<img src="images/UIntSizes.png" width=500>
 
 # Protocols from UInt to Numeric
 
