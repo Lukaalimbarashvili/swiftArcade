@@ -46,7 +46,7 @@ calculate(a: 7, b: 2, operation: multiply) // 14
 calculate(a: 7, b: 2, operation: division) // 3
 ```
 
-## KeyWord
+## Keyword
 Overloading - In Swift, two or more functions may have the same name if they differ in parameters
 ```swift
 // Function 1 to calculate sum
