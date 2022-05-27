@@ -113,7 +113,7 @@ Just be careful. An implicitly unwrapped variable that is set to nil will crash 
 
 Here are some other cool Optional things to be aware of.
 
-## Nil coalescing
+## KeyWord: Nil coalescing
 
 To set a default value for an Optional that's nil use the double question mark '??' syntax for Nil Coalescing.
 
@@ -123,7 +123,7 @@ let result = optionalInt ?? 0
 
 This just means if the Optional is nil, use this default value.
 
-## Optional Chaining
+## KeyWord: Optional Chaining
 Optional chaining is a feature that allows you to call properties and methods on an optional that might currently be nil. Unlike force wrapping however which would result in a runtime error, optional chaining fails gracefully when the optional is nil.
 
 ```swift

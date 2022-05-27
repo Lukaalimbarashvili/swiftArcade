@@ -1,4 +1,4 @@
-## Type Inference
+## KeyWord: Type Inference
 Swift compiler can deduce type of variable. 
 ```swift
 var Name = "luka"
