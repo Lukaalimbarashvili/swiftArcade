@@ -1,4 +1,4 @@
-1. Type Inference - Swift compiler can deduce type of variable. <br /> <br /> 
+
 2. Ternary conditional operator - (`<CONDITION>`) ? `<TRUE VALUE>` : `<FALSE VALUE>` <br /> <br />
 3. Countable closed range
 ``` swift
@@ -17,4 +17,3 @@ for i in 1...count {
     print(sum)
 }
 ```
-6. Overloading - In Swift, two or more functions may have the same name if they differ in parameters.
