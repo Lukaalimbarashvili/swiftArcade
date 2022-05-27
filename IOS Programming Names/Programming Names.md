@@ -8,3 +8,13 @@ let closedRange = 0...5
 ``` swift
 let halfOpenRange = 0..<5
 ```
+5. Triangle numbers - 0, 1, 3, 6, 10, 15, 21 ...
+```swift
+let count = 10
+var sum = 0
+for i in 1...count {
+    sum += i
+    print(sum)
+}
+```
+6. Overloading - In Swift, two or more functions may have the same name if they differ in parameters.
