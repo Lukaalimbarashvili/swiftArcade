@@ -35,8 +35,9 @@ let result = dictWithNils.count // 2
 ```
 ### Running time for dictionary operations
 
-<b>Accessing elements:</b> Getting the value for a key is a constant time operation, or O(1).
-Inserting elements: To insert an element, the dictionary needs to calculate the hash value of the key then store data based on that hash. These are all O(1) operations.
-Deleting elements: Again, the dictionary needs to calculate the hash value to know exactly where to find the element, and then remove it. This is also an O(1) operation.
-Searching for an element: As mentioned above, accessing an element has constant running time, so the complexity for searching is also O(1).
+<b>Accessing elements:</b>   Getting the value for a key is a constant time operation, or O(1). <br>
+<b>Inserting elements:</b>   To insert an element, the dictionary needs to calculate the hash value of the key then store data based on that hash. These are all O(1) operations.<br>
+<b>Deleting elements:</b>   Again, the dictionary needs to calculate the hash value to know exactly where to find the element, and then remove it. This is also an O(1) operation.<br>
+<b>Searching for an element:</b>   As mentioned above, accessing an element has constant running time, so the complexity for searching is also O(1).<br>
+
 While all of these running times compare favorably to arrays, remember that you lose order information when using dictionaries.
