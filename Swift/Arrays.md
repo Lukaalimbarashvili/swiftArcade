@@ -20,14 +20,16 @@ As you learn about dictionaries and sets, you’ll see how their performance cha
 
 
 # ArraySlice
-<ArraySlice> is a generic struct that very much behaves like an array. It supports much of the same functionality that the <Array> does, so working with it feels very familiar.
-What makes the <ArraySlice> special is its capability of free-riding on part of an array’s already allocated memory space. You can visualize it like this:
+`<ArraySlice>` is a generic struct that very much behaves like an array. It supports much of the same functionality that the `<Array>` does, so working with it feels very familiar.
+What makes the `<ArraySlice>` special is its capability of free-riding on part of an array’s already allocated memory space. You can visualize it like this:
+
 <img src="images/ArraySlice.png" width=500>
+
 As you can see, the two arrays each allocates their own space in memory, and keep their own, separate copies of their elements, even though they may be the same.
 The ArraySlice on the other hand, can reference part of another array’s memory and pass it off as its own, effectively eliminating duplication of values.
 An ArraySlice is perfectly capable of allocating its own memory space if needed, but then you kind of lose the whole point of using them at all.
 
-let’s take a moment to recognize that an instance of <ArraySlice> will actually increase the reference counter for the underlying storage of the array. Because of this, it is never a good idea to store a slice for longer than you absolutely need to, since it will keep the whole memory space from being deallocated if the array is deallocated before our array slice (that means the whole memory space, not just a few elements that the slice may be referencing).
+let’s take a moment to recognize that an instance of `<ArraySlice>` will actually increase the reference counter for the underlying storage of the array. Because of this, it is never a good idea to store a slice for longer than you absolutely need to, since it will keep the whole memory space from being deallocated if the array is deallocated before our array slice (that means the whole memory space, not just a few elements that the slice may be referencing).
 
 ### Example of ArraySlice
 ```swift
@@ -36,7 +38,7 @@ let slice = array[1...3]
 print(slice)
 // Prints [2, 3, 4]
 ```
-<Array> and <ArraySlice> share many similarities
+`<Array>` and `<ArraySlice>` share many similarities
 ```swift
 let sum = slice.reduce(0, +)
 print(sum)
@@ -48,7 +50,7 @@ print(max)
 // Prints Optional(4)
 ```
 
-But There is catch also
+But There is catch
 ```swift
 for index in 0 ..< slice.count {
     print(slice[index])
@@ -63,4 +65,4 @@ for index in slice.startIndex ..< slice.endIndex {
 }
 // Prints 2 3 4
 ```
-One thing to note about the <.endIndex> property is that it actually references the first offset after the array ends, which means you will get an Index Out Of Bounds error if you try to access the element in that location. Therefore, use the half-open range operator (<..<>) when forming the index range you want to use.
+One thing to note about the `<.endIndex>` property is that it actually references the first offset after the array ends, which means you will get an Index Out Of Bounds error if you try to access the element in that location. Therefore, use the half-open range operator (`<..<>`) when forming the index range you want to use.
