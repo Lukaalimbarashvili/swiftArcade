@@ -8,6 +8,7 @@ Here is sample explanation of confusing subjects for me
 * [Optionals](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Optionals.md)
 * [Tuples](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Tuples.md)
 * [Numbers](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Numbers.md)
+* [Array](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Arrays.md)
 * [Function_as_Parameter](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Function_As_Parameter.md)
 
 
