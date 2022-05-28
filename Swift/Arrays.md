@@ -1,5 +1,5 @@
 # Array
-
+### Running time for array operations
 Arrays are stored as a contiguous block in memory. That means if you have ten elements in an array, the ten values are all stored one next to the other. With that in mind, here’s the performance cost of various array operations:
 ### Accessing elements
  The cost of fetching an element is cheap, meaning that it happens in a fixed or constant time. Sometimes this is written O(1). Since all the values are sequential, it’s easy to use random access and fetch a value at a particular index; all the compiler needs to know is where the array starts and what index you want to fetch.
