@@ -11,7 +11,8 @@ Here is sample explanation of confusing subjects for me
 * [Array](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Arrays.md)
 * [Dictionary](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Dictionary.md)
 * [Set](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/tete%20copy.md)
-* [Function_as_Parameter](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Function_As_Parameter.md)
+* [Function as Parameter](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Function_As_Parameter.md)
+* [Guard in Loop](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Guard_In_Loop.md)
 
 
 ## KeyWords
