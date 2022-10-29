@@ -2,7 +2,7 @@
 Swift compiler can deduce type of variable. 
 ```swift
 var Name = "luka"
-var Age  = 13
+var Age  = 13233232233232
 ```
 
 ## Useful Link

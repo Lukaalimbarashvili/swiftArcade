@@ -4,7 +4,7 @@ Here is sample explanation of confusing subjects for me
 
 ## Swift
 
-* [Strings](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Strings.md)
+* [Strings](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/String.md)
 * [Optionals](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Optionals.md)
 * [Tuples](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Tuples.md)
 * [Numbers](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Numbers.md)
