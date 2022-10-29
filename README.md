@@ -6,11 +6,11 @@ Here is sample explanation of confusing subjects for me
 
 * [Strings](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/String.md)
 * [Optionals](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Optionals.md)
-* [Tuples](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Tuples.md)
+* [Tuples](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Tuple.md)
 * [Numbers](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Numbers.md)
-* [Array](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Arrays.md)
+* [Array](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Array.md)
 * [Dictionary](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Dictionary.md)
-* [Set](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/tete%20copy.md)
+* [Set](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Set.md)
 * [Function as Parameter](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Function_As_Parameter.md)
 * [Guard in Loop](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Guard_In_Loop.md)
 
