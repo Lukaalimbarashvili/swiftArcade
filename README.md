@@ -12,6 +12,7 @@ Here is sample explanation of confusing subjects for me
 * [Dictionary](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Dictionary.md)
 * [Set](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/tete%20copy.md)
 * [Function_as_Parameter](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Function_As_Parameter.md)
+* [Dynamic VS Static Dispatch](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Dynamic%20VS%20Static%20Dispatch.md)
 
 
 ## KeyWords
