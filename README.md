@@ -1,7 +1,5 @@
 # swiftArcade
 
-Here is sample explanation of confusing subjects for me
-
 ## Swift
 
 * [Strings](https://github.com/Lukaalimbarashvili/swiftArcade/blob/main/Swift/Strings.md)
